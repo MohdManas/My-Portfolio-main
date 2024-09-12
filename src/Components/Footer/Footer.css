@@ -1,0 +1,117 @@
+.footer{
+    max-width: 1300px;
+    margin:auto;
+    border-top: 1px solid #b5b4b4;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+}
+.scrollUp{
+    position:fixed;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 5px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: red;
+    color:white;
+    border: none;
+    transition: .3s;
+}
+.arrowUp{
+    font-size: 30px;
+}
+.scrollUp:hover{
+    transform: translateY(-5px);
+    background:linear-gradient(111.3deg, rgb(252, 56, 56) 11.7%, rgb(237, 13, 81) 81.7%);
+    color:#ffffff ;
+}
+
+/* .footer h1{
+    background:linear-gradient(111.3deg, rgb(252, 56, 56) 11.7%, rgb(237, 13, 81) 81.7%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    font-size: 20px;
+} */
+
+.footer h1 {
+    background: linear-gradient(111.3deg, rgb(252, 56, 56) 11.7%, rgb(237, 13, 81) 81.7%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+
+.footer .footer-links{
+    width: 60%;
+    margin:30px auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.footer-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.footer-links a:hover{
+    color: red;
+}
+.footer .footer-social-links{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 0px;
+    gap: 30px;
+}
+.footer-social-links a img{
+    width: 30px;
+    height: 30px;
+    transition: .3s;
+}
+.footer-social-links a img:hover{
+    transform: translateY(-5px);
+}
+.footer p{
+    font-size: 15px;
+    letter-spacing: .5px;
+    color: grey;
+    margin-top: 40px;
+}
+
+
+/* --large devices-- */
+
+@media screen and (max-width:1120px){
+    .footer{
+        width: 85%;
+    }
+}
+/* --medium devices-- */
+
+
+@media screen and (max-width:576px){
+    .footer{
+        width: 92%;
+        padding: 30px 0px;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+    .footer .footer-links{
+        width: 95%;
+        row-gap: 10px;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+/* --small devices-- */
+
+@media screen and (max-width:350px){
+}
