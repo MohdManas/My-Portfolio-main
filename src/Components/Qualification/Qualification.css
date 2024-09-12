@@ -1,0 +1,126 @@
+.qualification{
+    max-width: 1300px;
+    min-height: 70vh;
+    margin:30px auto 0px;
+    padding: 0px 40px 150px;
+    border-radius: 10px;
+}
+.qualification h1{
+    font-size: 45px;
+    color: grey;
+    text-align: center;
+    width:fit-content;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.qualification >p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.outer{
+    width: 80%;
+    border-left: 2px solid #333;
+    margin:50px auto;
+}
+.education-lists{
+    position: relative;
+    margin-bottom: 50px;
+    padding: 25px 25px;
+    background-color:#eeee;
+    border-radius: 10px;
+    margin-left: 20px;
+    transition: .3s;
+}
+.education-lists::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid red;
+    border-radius:50%;
+    left: -28px;
+    top:0px;
+    background-color:#eee;
+}
+.education-lists:hover{
+    transform: translateY(-8px);
+    background: red;
+    color: #fff;
+}
+.education-lists:hover h2{
+    color: #fff;
+}
+.education-lists:hover small{
+    color: black;
+}
+.education-lists h2{
+    font-size:21px;
+    font-weight: 500;
+    color: rgb(92, 91, 91);
+}
+
+.education-lists small{
+    background-color: #dedede;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    display:inline-block;
+    margin:5px 0px;
+}
+.education-lists .Elpara{
+    font-size:15px;
+}
+  /* --large devices-- */
+
+@media screen and (max-width:1120px){
+    .qualification{
+        border-radius: 0px;
+    }
+}
+/* --medium devices-- */
+
+@media screen and (max-width:768px){
+    
+    .outer{
+        width: 80%;
+        border-left: 1px solid #333;
+        margin:50px auto; 
+    }
+    .education-lists h2{
+        font-size:18px;
+    }
+    .education-lists small{
+        background-color: #dedede;
+        padding: 5px;
+        font-size: 12px;
+        border-radius: 5px;
+        display:inline-block;
+        margin:5px 0px;
+    }
+    .education-lists p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:576px){
+    .qualification h1{
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+    .qualification >p{
+        font-size: 20px;
+    }
+    .education-lists h2{
+        font-size:15px;
+    }
+    
+
+}
+
+
+/* --small devices-- */
+
+@media screen and (max-width:350px){
+    
+}
