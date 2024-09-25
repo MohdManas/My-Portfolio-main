@@ -30,7 +30,7 @@ const Footer = () => {
 
   return (
       <div className="footer">
-        {/* <h1 >Mohammed Manas</h1> */}
+        <h1 >Mohammed Manas</h1>
 
         <div className="footer-links">
           <a href="#about">About</a>

@@ -5,37 +5,40 @@ const Header = () => {
 
   return (
     <div className="header" id='header'>
-        <div className="hero-section">
-          <motion.div 
+      <div className="hero-section">
+        <motion.div
           initial="hidden"
           whileInView="show"
           variants={{
-              hidden:{
-              opacity:0,
-              y:60,
-              transition:{
-                type:"spring",
-                stiffness:300
+            hidden: {
+              opacity: 0,
+              y: 60,
+              transition: {
+                type: "spring",
+                stiffness: 300
               }
             },
-            show:{
-              opacity:1,
-              y:0,
-              transition:{
-                type:"spring",
-                stiffness:100,
-                delay:1
+            show: {
+              opacity: 1,
+              y: 0,
+              transition: {
+                type: "spring",
+                stiffness: 100,
+                delay: 1
               }
             }
           }}
-          viewport={{once:true}}
-         
+          viewport={{ once: true }}
+
 
           className="hero-left">
-            <h1>Hi, I am</h1>
-            <h2>Mohammed Manas</h2>
-            <p>FRONTEND WEB & APP DEVELOPER</p>
-         
+          <h1>Hi, I am</h1>
+          <h2>
+            <span >Mohammed</span>
+            Manas
+          </h2>
+          <p>FRONTEND WEB & APP DEVELOPER</p>
+
 
           <div className="social-links-groups">
             <span>FIND WITH ME</span>
@@ -57,10 +60,10 @@ const Header = () => {
                   <img src="https://www.svgrepo.com/show/349323/codepen.svg" alt="codepen" />
                 </a>
               </div> */}
-              
+
             </div>
           </div>
-          </motion.div>
+        </motion.div>
       </div>
     </div>
   )

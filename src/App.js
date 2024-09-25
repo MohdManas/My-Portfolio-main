@@ -7,6 +7,7 @@ import Projects from './Components/Projects/Projects'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import Nav from './Components/NavBar/Nav'
+import Dark from './Components/DarkTheme/Dark'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Projects />
       <Contact />
       <Footer />
+      <Dark />
     </div>
   )
 }
