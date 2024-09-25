@@ -7,7 +7,7 @@ import { RiCloseFill } from "react-icons/ri"
 const Nav = () => {
 
   const [visible, setVisible] = useState(false)
-  const [darkMode,setDarkMode] = useState(false)
+  // const [darkMode,setDarkMode] = useState(false)
 
   const shadowVisible = () => {
     const value = document.documentElement.scrollTop;
@@ -32,7 +32,7 @@ const Nav = () => {
 
   return (
     <nav
-    className={darkMode ? 'darkMode' : 'lightMode'}
+    // className={darkMode ? 'darkMode' : 'lightMode'}
       style={visible ?
         { boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" }
         : { boxShadow: "none" }}
