@@ -1,7 +1,8 @@
 import "../Header/Header.css"
 import { motion } from 'framer-motion'
 
-const Header = () => {
+
+const Header = ({darkMode}) => {
 
   return (
     <div className="header" id='header'>
@@ -32,9 +33,9 @@ const Header = () => {
 
 
           className="hero-left">
-          <h1>Hi, I am</h1>
+          <h1 className={darkMode ? 'header-darkMode' : 'header-lightMode'}>Hi, I am </h1>
           <h2>
-            <span >Mohammed</span>
+            <span  className={darkMode ? 'header-darkMode' : 'header-lightMode'} >Mohammed</span>
             Manas
           </h2>
           <p>FRONTEND WEB & APP DEVELOPER</p>

@@ -2,7 +2,7 @@ nav{
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: rgb(247, 128, 128);
     z-index: 1000;
     transition: .5s
 }
@@ -38,6 +38,38 @@ nav{
     background-clip: text;
     -webkit-text-fill-color: rgb(252, 56, 56) ;
 }
+
+/* Body Dark Theme  */
+.darkMode .myName{
+    color: white;
+}
+
+body.dark-mode {
+    background-color: #1f1f1f;
+    color: #fff;
+  }
+  
+  /* Nav specific dark mode styles */
+  .darkMode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .lightMode {
+    background-color: #fff;
+    color: #000;
+  }
+  .nav-links a:hover .darkMode{
+    color:white;
+}
+.lightMode a {
+    color: inherit;
+  }
+  
+  .darkMode a {
+    color: white;
+  }
+
 
 
 /* --large devices-- */

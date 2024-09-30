@@ -22,6 +22,17 @@
     line-height: 60px;
     color: grey;
 }
+
+
+/* Dark Mode for Header */
+.hero-left h1 .header-lightMode  {
+    color: black;
+}
+.header-darkMode {
+    color: white;
+}
+
+
 .hero-left h2,.hero-left h2 span{
     font-size: 60px;
     font-weight: 800;
