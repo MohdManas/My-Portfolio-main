@@ -44,10 +44,11 @@ nav{
     color: white;
 }
 
-body.dark-mode {
+body.dark-mode{
     background-color: #1f1f1f;
     color: #fff;
   }
+
   
   /* Nav specific dark mode styles */
   .darkMode {

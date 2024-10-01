@@ -3,7 +3,7 @@ import "../Footer/Footer.css"
 import { TbArrowBigUpFilled } from "react-icons/tb"
 import { useState } from 'react'
 
-const Footer = () => {
+const Footer = (darkMode) => {
     const ThisYear = new Date().getFullYear()
 
     const [visible,setVisible] = useState(false)
@@ -29,10 +29,10 @@ const Footer = () => {
    window.addEventListener("scroll",toggleVisible)
 
   return (
-      <div className="footer">
+      <div className='footer'>
         <h1 >Mohammed Manas</h1>
 
-        <div className="footer-links">
+        <div className={`footer-links ${darkMode ? 'dark-footer' : 'light-footer'}`}>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#qualification">Qualification</a>
