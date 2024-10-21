@@ -1,8 +1,8 @@
 import React from 'react'
 import "../About/About.css"
-import CV from "../../assets/Manas - Developer.pdf"
+import CV from "../../assets/Mohammed Manas CV.pdf"
 import { motion } from 'framer-motion'
-import profile from "../../assets/WhatsApp Image 2024-08-16 at 10.10.30 AM.jpeg"
+import profile from "../../assets/Profile Pic.jpg"
 
 
 const About = () => {
@@ -51,7 +51,7 @@ const About = () => {
             }
           }}
           className="aboutMe-content">
-          <p>Experienced Front-end Developer with 2 years in React.js and a strong
+          <p>Experienced Front-end Developer with 3.5 years in React.js and a strong
             background in JavaScript, CSS, HTML, Redux, Context API, and React Native.
             Skilled in crafting dynamic, responsive web applications and enhancing site
             performance through regular maintenance and optimization.
@@ -69,7 +69,7 @@ const About = () => {
 
               <div className="details">
                 <h2>Year Of Expericene</h2>
-                <p>2</p>
+                <p>3.5</p>
               </div>
             </div>
           </div>

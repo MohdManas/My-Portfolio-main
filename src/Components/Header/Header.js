@@ -33,7 +33,7 @@ const Header = () => {
 
           className="hero-left">
             <h1>Hi, I am</h1>
-            <h2>Mohammed Manasssss</h2>
+            <h2>Mohammed <span>Manas</span></h2>
             <p>FRONTEND WEB & APP DEVELOPER</p>
          
 

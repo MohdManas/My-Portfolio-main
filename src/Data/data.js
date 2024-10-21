@@ -27,14 +27,14 @@ export const projects =[
         src:project3, 
         title:"Password Generator",
         desc:'The Password Generator project is a web application that allows users to generate secure and random passwords for various online accounts.',
-        href1:"https://github.com/iamvijay98/Password-Generator",
+        href1:"https://github.com/MohdManas/Password-Generator",
         href2:"https://iamvijay98.github.io/Password-Generator/",
     },
     {
         src:project4, 
         title:"CSS border Style Generator",
         desc:'The CSS Border Generator is a web-based project built using HTML, CSS, and JavaScript, designed to help developers and designers create custom border styles effortlessly.',
-        href1:"https://github.com/iamvijay98/CSS-border-Style-Generator",
+        href1:"https://github.com/MohdManas/CSS-border-Style-Generator",
         href2:"https://iamvijay98.github.io/CSS-border-Style-Generator/" ,
     },
     // {

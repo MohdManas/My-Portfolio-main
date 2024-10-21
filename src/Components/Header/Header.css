@@ -28,14 +28,15 @@
     color: rgb(80, 80, 80);
 }
 .hero-left h2 span  {
-    background:linear-gradient(111.3deg, rgb(252, 56, 56) 11.7%, rgb(237, 13, 81) 81.7%);
+    background:linear-gradient(111.3deg, rgb(252, 56, 56) );
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: rgb(252, 56, 56) ;
 }
 .hero-left p{
     font-size: 25px;
     letter-spacing: 6px;
 }
+
 .social-links-groups{
     margin-top: 80px;
 }
