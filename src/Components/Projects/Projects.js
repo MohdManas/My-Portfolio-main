@@ -8,7 +8,11 @@ const Projects = () => {
   return (
     <div className="projects" id='projects'>
         <h1>Projects</h1>
+<<<<<<< HEAD
         <p>Here are some of my projects....</p>
+=======
+        <p>Here are some of my projects.</p>
+>>>>>>> master
 
         <div className="projects-container">
           {projects.map((val)=>(

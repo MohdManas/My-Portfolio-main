@@ -12,14 +12,15 @@ export const projects =[
         src:project1, 
         title:"React Social Media App",
         desc:'"It is a Social media application which has all Basic features of Facebook, Twitter.',
-        href1:"https://github.com/iamvijay98/Social-Media-App-Frontend",
+        href1:"https://github.com/MohdManas/Social-Media-App-Frontend",
         href2:"https://iamvijay98.github.io/Social-Media-App-Frontend/",
+        
     },
     {
         src:project2, 
         title:"React Todo App",
         desc:'The "React Todo List with Local Storage" project is a web-based task management application developed using React.',
-        href1:"https://github.com/iamvijay98/React-TodoApp",
+        href1:"https://github.com/MohdManas/React-TodoApp",
         href2:"https://reactify-todo-app.netlify.app/"
     },
     {
