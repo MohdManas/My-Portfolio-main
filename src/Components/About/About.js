@@ -2,7 +2,7 @@ import React from 'react'
 import "../About/About.css"
 import CV from "../../assets/Mohammed Manas CV.pdf"
 import { motion } from 'framer-motion'
-import profile from "../../assets/Profile Pic.jpg"
+import profile from "../../assets/Profilepic.jpg"
 
 
 const About = () => {
